@@ -1,0 +1,52 @@
+.Core {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Core-Link {
+  color: #61dafb;
+}
+
+.Core-Subheader {
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+
+/* Kudos to DevLorenzo on Grepper */
+.Core-Typewrite {
+  animation: none;
+  border-right: none;
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+  padding-left: 2.5%;
+  margin: 0;
+  overflow: auto;
+  text-align: center;
+  padding-right: 2.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .Core-Typewrite {
+    animation: none;
+    border-right: none;
+    letter-spacing: normal;
+    font-size: 2.5em;
+    padding-left: 2.5%;
+    margin: 0;
+    overflow: auto;
+    padding-right: 2.5%;
+  }
+
+  .Core-Subheader {
+    font-size: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
