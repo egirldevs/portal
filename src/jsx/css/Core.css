@@ -11,6 +11,44 @@
   color: #61dafb;
 }
 
+.Core-Logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Core-Logo:hover {
+  transform: rotate(360deg);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.rowItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #e9dbdb  ;
+}
+
+.Core-Video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+video {
+  object-fit: cover;
+}
+
 .Core-Subheader {
   font-size: 1.75rem;
   font-weight: 500;
